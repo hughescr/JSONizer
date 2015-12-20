@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449F72231C263E710013DBA7 /* JSONizer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 449F72221C263E710013DBA7 /* JSONizer.h */; };
+		449F72251C263E710013DBA7 /* JSONizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F72241C263E710013DBA7 /* JSONizer.m */; };
+		44CEF9BC1C263F3D00178401 /* JSONizer_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF9BB1C263F3D00178401 /* JSONizer_Tests.m */; };
+		44CEF9BE1C263F3D00178401 /* libJSONizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 449F721F1C263E710013DBA7 /* libJSONizer.a */; };
+		44E965001C2640C500042EDC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E8C3A71C2640120086F411 /* JavaScriptCore.framework */; };
+		44E965011C2640C900042EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E964FE1C2640B200042EDC /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44CEF9BF1C263F3D00178401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 449F72171C263E710013DBA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449F721E1C263E710013DBA7;
+			remoteInfo = JSONizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		449F721D1C263E710013DBA7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				449F72231C263E710013DBA7 /* JSONizer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		449F721F1C263E710013DBA7 /* libJSONizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		449F72221C263E710013DBA7 /* JSONizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONizer.h; sourceTree = "<group>"; };
+		449F72241C263E710013DBA7 /* JSONizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONizer.m; sourceTree = "<group>"; };
+		44CEF9B91C263F3C00178401 /* JSONizer Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSONizer Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CEF9BB1C263F3D00178401 /* JSONizer_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONizer_Tests.m; sourceTree = "<group>"; };
+		44CEF9BD1C263F3D00178401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E8C3A71C2640120086F411 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		44E964FE1C2640B200042EDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449F721C1C263E710013DBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CEF9B61C263F3C00178401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E965011C2640C900042EDC /* Foundation.framework in Frameworks */,
+				44E965001C2640C500042EDC /* JavaScriptCore.framework in Frameworks */,
+				44CEF9BE1C263F3D00178401 /* libJSONizer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		449F72161C263E710013DBA7 = {
+			isa = PBXGroup;
+			children = (
+				44E964FE1C2640B200042EDC /* Foundation.framework */,
+				44E8C3A71C2640120086F411 /* JavaScriptCore.framework */,
+				449F72211C263E710013DBA7 /* JSONizer */,
+				44CEF9BA1C263F3D00178401 /* JSONizer Tests */,
+				449F72201C263E710013DBA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		449F72201C263E710013DBA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449F721F1C263E710013DBA7 /* libJSONizer.a */,
+				44CEF9B91C263F3C00178401 /* JSONizer Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449F72211C263E710013DBA7 /* JSONizer */ = {
+			isa = PBXGroup;
+			children = (
+				449F72221C263E710013DBA7 /* JSONizer.h */,
+				449F72241C263E710013DBA7 /* JSONizer.m */,
+			);
+			path = JSONizer;
+			sourceTree = "<group>";
+		};
+		44CEF9BA1C263F3D00178401 /* JSONizer Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44CEF9BB1C263F3D00178401 /* JSONizer_Tests.m */,
+				44CEF9BD1C263F3D00178401 /* Info.plist */,
+			);
+			path = "JSONizer Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449F721E1C263E710013DBA7 /* JSONizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449F72281C263E710013DBA7 /* Build configuration list for PBXNativeTarget "JSONizer" */;
+			buildPhases = (
+				449F721B1C263E710013DBA7 /* Sources */,
+				449F721C1C263E710013DBA7 /* Frameworks */,
+				449F721D1C263E710013DBA7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONizer;
+			productName = JSONizer;
+			productReference = 449F721F1C263E710013DBA7 /* libJSONizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		44CEF9B81C263F3C00178401 /* JSONizer Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CEF9C11C263F3D00178401 /* Build configuration list for PBXNativeTarget "JSONizer Tests" */;
+			buildPhases = (
+				44CEF9B51C263F3C00178401 /* Sources */,
+				44CEF9B61C263F3C00178401 /* Frameworks */,
+				44CEF9B71C263F3C00178401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CEF9C01C263F3D00178401 /* PBXTargetDependency */,
+			);
+			name = "JSONizer Tests";
+			productName = "JSONizer Tests";
+			productReference = 44CEF9B91C263F3C00178401 /* JSONizer Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449F72171C263E710013DBA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Craig Hughes";
+				TargetAttributes = {
+					449F721E1C263E710013DBA7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					44CEF9B81C263F3C00178401 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 449F721A1C263E710013DBA7 /* Build configuration list for PBXProject "JSONizer" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 449F72161C263E710013DBA7;
+			productRefGroup = 449F72201C263E710013DBA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449F721E1C263E710013DBA7 /* JSONizer */,
+				44CEF9B81C263F3C00178401 /* JSONizer Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CEF9B71C263F3C00178401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449F721B1C263E710013DBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449F72251C263E710013DBA7 /* JSONizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CEF9B51C263F3C00178401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CEF9BC1C263F3D00178401 /* JSONizer_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CEF9C01C263F3D00178401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449F721E1C263E710013DBA7 /* JSONizer */;
+			targetProxy = 44CEF9BF1C263F3D00178401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		449F72261C263E710013DBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		449F72271C263E710013DBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449F72291C263E710013DBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		449F722A1C263E710013DBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44CEF9C21C263F3D00178401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JSONizer Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rungie.JSONizer-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44CEF9C31C263F3D00178401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JSONizer Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rungie.JSONizer-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449F721A1C263E710013DBA7 /* Build configuration list for PBXProject "JSONizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449F72261C263E710013DBA7 /* Debug */,
+				449F72271C263E710013DBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449F72281C263E710013DBA7 /* Build configuration list for PBXNativeTarget "JSONizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449F72291C263E710013DBA7 /* Debug */,
+				449F722A1C263E710013DBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CEF9C11C263F3D00178401 /* Build configuration list for PBXNativeTarget "JSONizer Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CEF9C21C263F3D00178401 /* Debug */,
+				44CEF9C31C263F3D00178401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449F72171C263E710013DBA7 /* Project object */;
+}
